@@ -1,0 +1,80 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="button"], input[type="reset"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="button"]:hover, input[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+#msg {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
